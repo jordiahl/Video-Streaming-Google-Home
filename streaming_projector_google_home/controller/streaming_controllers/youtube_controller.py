@@ -1,4 +1,5 @@
 
 
 class youtube_controller:
-    def __init__
+    def __init__(self):
+        
