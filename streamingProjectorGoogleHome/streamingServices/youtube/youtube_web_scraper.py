@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from selenium import webdriver
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
@@ -6,10 +5,14 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from elemen_has_tag import element_has_tag
-from youtube_scraping_IDs import scraping_IDs
 
-from streamingProjectorGoogleHome.controller import try2
+
+from streamingProjectorGoogleHome.streamingServices.youtube.element_has_tag import element_has_tag
+from streamingProjectorGoogleHome.streamingServices.youtube.youtube_scraping_IDs import scraping_IDs
+
+
+# from element_has_tag import element_has_tag
+# from youtube_scraping_IDs import scraping_IDs
 
 
 class youtube_web_scraper:
@@ -17,9 +20,9 @@ class youtube_web_scraper:
     def __init__(self):
         self.driver = webdriver.Chrome()
         self.yID = scraping_IDs()
-        self.driver.get("http://www.youtube.com")
-        self.search("hello")
-        self.select_ideal_video_from_list(0)
+        # self.driver.get("http://www.youtube.com")
+        # self.search("hello")
+        # self.select_ideal_video_from_list(0)
 
 
     def search (self, search_string):

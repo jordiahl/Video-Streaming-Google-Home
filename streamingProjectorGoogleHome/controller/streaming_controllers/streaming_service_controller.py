@@ -1,5 +1,5 @@
-from streaming_service_type import streaming_service_type
-
+from streamingProjectorGoogleHome.controller.streaming_controllers.streaming_service_type import streaming_service_type
+from streamingProjectorGoogleHome.controller.streaming_controllers.youtube_controller import youtube_controller
 
 class streaming_service_controller:
 
@@ -22,7 +22,7 @@ class streaming_service_controller:
         return self.select_streaming_service(streaming_service)
 
     def start_youtube_controller(self):
-        return None
+        return youtube_controller
 
     def start_netflix_controller(self):
         return None
