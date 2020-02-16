@@ -21,7 +21,7 @@ Installation
 clone the repository  
     `git clone git@github.com:benvanwerkhoven/empty_python.git`  
 change into the top-level directory  
-    `cd streaming_projector_google_home`  
+    `cd streamingProjectorGoogleHome`  
 install using  
     `pip install .`
 
@@ -32,7 +32,7 @@ Dependencies
 Example usage
 -------------
 To use this repository as the starting point for your Python project, just
-download the repository and rename all occurences of `streaming_projector_google_home` with the
+download the repository and rename all occurences of `streamingProjectorGoogleHome` with the
 name of your new project!
 
 Contribution guide

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# streaming_projector_google_home documentation build configuration file, created by
+# streamingProjectorGoogleHome documentation build configuration file, created by
 # sphinx-quickstart on Tue Mar 29 15:46:32 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -48,7 +48,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'streaming_projector_google_home'
+project = u'streamingProjectorGoogleHome'
 copyright = u'2016, Netherlands eScience Center'
 author = u'Ben van Werkhoven'
 
@@ -126,7 +126,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
-#html_title = u'streaming_projector_google_home v0.0.1'
+#html_title = u'streamingProjectorGoogleHome v0.0.1'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -208,7 +208,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'estreaming_projector_google_homedoc'
+htmlhelp_basename = 'estreamingProjectorGoogleHomedoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -230,7 +230,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'streaming_projector_google_home.tex', u'empty\\_python Documentation',
+    (master_doc, 'streamingProjectorGoogleHome.tex', u'empty\\_python Documentation',
      u'Netherlands eScience Center', 'manual'),
 ]
 
@@ -260,7 +260,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'streaming_projector_google_home', u'streaming_projector_google_home Documentation',
+    (master_doc, 'streamingProjectorGoogleHome', u'streamingProjectorGoogleHome Documentation',
      [author], 1)
 ]
 
@@ -274,8 +274,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'streaming_projector_google_home', u'streaming_projector_google_home Documentation',
-     author, 'streaming_projector_google_home', 'One line description of project.',
+    (master_doc, 'streamingProjectorGoogleHome', u'streamingProjectorGoogleHome Documentation',
+     author, 'streamingProjectorGoogleHome', 'One line description of project.',
      'Miscellaneous'),
 ]
 

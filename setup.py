@@ -7,14 +7,14 @@ def read(fname):
 
 
 setup(
-    name="streaming_projector_google_home",
+    name="streamingProjectorGoogleHome",
     version="0.0.1",
     author="Jordi Hernandez",
     author_email="jordihernandezlage@gmail.com",
     description=("An empty Python project"),
     license="Apache 2.0",
     keywords="Python",
-    packages=['streaming_projector_google_home'],
+    packages=['streamingProjectorGoogleHomehtml'],
     long_description=read('README.md'),
     classifiers=[
         'Development Status :: 1 - Planning',

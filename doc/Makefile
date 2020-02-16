@@ -95,9 +95,9 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/streaming_projector_google_home.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/streamingProjectorGoogleHome.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/streaming_projector_google_home.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/streamingProjectorGoogleHome.qhc"
 
 .PHONY: applehelp
 applehelp:
@@ -114,8 +114,8 @@ devhelp:
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/streaming_projector_google_home"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/streaming_projector_google_home"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/streamingProjectorGoogleHome"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/streamingProjectorGoogleHome"
 	@echo "# devhelp"
 
 .PHONY: epub

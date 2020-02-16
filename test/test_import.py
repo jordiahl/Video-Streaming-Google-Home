@@ -1,4 +1,4 @@
-import streaming_projector_google_home
+import streamingProjectorGoogleHome
 
 
 def test_empty():
