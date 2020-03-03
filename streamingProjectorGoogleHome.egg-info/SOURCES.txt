@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+streamingProjectorGoogleHome/__init__.py
+streamingProjectorGoogleHome/main.py
+streamingProjectorGoogleHome.egg-info/PKG-INFO
+streamingProjectorGoogleHome.egg-info/SOURCES.txt
+streamingProjectorGoogleHome.egg-info/dependency_links.txt
+streamingProjectorGoogleHome.egg-info/requires.txt
+streamingProjectorGoogleHome.egg-info/top_level.txt
+test/test_import.py

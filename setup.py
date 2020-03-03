@@ -14,7 +14,7 @@ setup(
     description=("An empty Python project"),
     license="Apache 2.0",
     keywords="Python",
-    packages=['streamingProjectorGoogleHomehtml'],
+    packages=['streamingProjectorGoogleHome'],
     long_description=read('README.md'),
     classifiers=[
         'Development Status :: 1 - Planning',
@@ -23,8 +23,10 @@ setup(
     ],
     setup_requires=[
         'pytest-runner',
+        'Flask'
     ],
     tests_require=[
         'pytest',
-    ]
+    ],
+    install_requires =['Flask', 'Requests']
 )

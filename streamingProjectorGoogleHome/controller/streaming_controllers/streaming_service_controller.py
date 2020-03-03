@@ -1,5 +1,5 @@
-from streamingProjectorGoogleHome.controller.streaming_controllers.streaming_service_type import streaming_service_type
-from streamingProjectorGoogleHome.controller.streaming_controllers.youtube_controller import youtube_controller
+from controller.streaming_controllers.streaming_service_type import streaming_service_type
+from controller.streaming_controllers.youtube_controller import youtube_controller
 
 class streaming_service_controller:
 

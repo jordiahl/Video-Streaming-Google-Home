@@ -1,4 +1,4 @@
-from streamingProjectorGoogleHome.controller.streaming_controllers.streaming_service_controller  import streaming_service_controller
+from controller.streaming_controllers.streaming_service_controller  import streaming_service_controller
 
 class server_controller:
     key_phrase = "video service"

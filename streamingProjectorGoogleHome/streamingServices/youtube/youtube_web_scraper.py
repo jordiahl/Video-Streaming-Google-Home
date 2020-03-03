@@ -7,8 +7,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-from streamingProjectorGoogleHome.streamingServices.youtube.element_has_tag import element_has_tag
-from streamingProjectorGoogleHome.streamingServices.youtube.youtube_scraping_IDs import scraping_IDs
+from streamingServices.youtube.element_has_tag import element_has_tag
+from streamingServices.youtube.youtube_scraping_IDs import scraping_IDs
 
 
 # from element_has_tag import element_has_tag
@@ -48,5 +48,3 @@ class youtube_web_scraper:
         video_list_elements = self.driver.find_elements_by_tag_name(self.yID.video_list_tag)
         video_list_elements[list_index].click()
 
-
-x = youtube_web_scraper()
