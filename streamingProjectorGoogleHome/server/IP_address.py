@@ -27,3 +27,5 @@ class IP_adress:
         # extracting response text  
         pastebin_url = r.text 
         print("The pastebin URL is:%s"%pastebin_url) 
+
+IP_adress().get_external_IP_adress()

@@ -22,4 +22,7 @@ def google_api():
         return mid.post_google_api(request)
 
 def start_server():
-    app.run(host= '192.168.1.51', port=62000)
+    if __name__ == "__main__":
+        app.run()
+    # app.run(host= '192.168.1.51', port=62000, ssl_context='adhoc')
+
